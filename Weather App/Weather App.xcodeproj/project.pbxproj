@@ -16,6 +16,8 @@
 		D443DA0F2C1A3CA20019F31E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443DA0E2C1A3CA20019F31E /* Color+Extensions.swift */; };
 		D443DA112C1A498F0019F31E /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443DA102C1A498F0019F31E /* DailyForecastTableViewCell.swift */; };
 		D443DA132C1A4FF80019F31E /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443DA122C1A4FF80019F31E /* UIView+Extentions.swift */; };
+		D443DA152C1A57400019F31E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443DA142C1A57400019F31E /* Service.swift */; };
+		D443DA192C1AA9A00019F31E /* Core+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443DA182C1AA9A00019F31E /* Core+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D443DA0E2C1A3CA20019F31E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D443DA102C1A498F0019F31E /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		D443DA122C1A4FF80019F31E /* UIView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extentions.swift"; sourceTree = "<group>"; };
+		D443DA142C1A57400019F31E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D443DA182C1AA9A00019F31E /* Core+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		D443D9F72C1A04DD0019F31E /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				D443DA142C1A57400019F31E /* Service.swift */,
 				D443D9F82C1A04DD0019F31E /* AppDelegate.swift */,
 				D443D9FA2C1A04DD0019F31E /* SceneDelegate.swift */,
 				D443D9FC2C1A04DD0019F31E /* ViewController.swift */,
@@ -72,6 +77,7 @@
 				D443DA062C1A04DF0019F31E /* Info.plist */,
 				D443DA102C1A498F0019F31E /* DailyForecastTableViewCell.swift */,
 				D443DA122C1A4FF80019F31E /* UIView+Extentions.swift */,
+				D443DA182C1AA9A00019F31E /* Core+Extensions.swift */,
 			);
 			path = "Weather App";
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D443DA0F2C1A3CA20019F31E /* Color+Extensions.swift in Sources */,
+				D443DA152C1A57400019F31E /* Service.swift in Sources */,
 				D443D9FD2C1A04DD0019F31E /* ViewController.swift in Sources */,
 				D443DA112C1A498F0019F31E /* DailyForecastTableViewCell.swift in Sources */,
+				D443DA192C1AA9A00019F31E /* Core+Extensions.swift in Sources */,
 				D443DA132C1A4FF80019F31E /* UIView+Extentions.swift in Sources */,
 				D443D9F92C1A04DD0019F31E /* AppDelegate.swift in Sources */,
 				D443DA0D2C1A37940019F31E /* HourlyForecastCollectionViewCell.swift in Sources */,
